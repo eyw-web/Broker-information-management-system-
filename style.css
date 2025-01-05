@@ -9,9 +9,9 @@ body{
 .wrapper {
     background: var(rgb(234, 249, 250));
     width: 80vw;
-    max-width: 1000px;
+    
     height: 80vh;
-    max-height: 800px;
+    
     border-radius: 16px;
     display: flex;
     align-items: center;
