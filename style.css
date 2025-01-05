@@ -1,0 +1,341 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #a9b4b4;
+   
+}
+.wrapper{
+    background: rgb(234, 249, 250);
+    width: 1000px;
+    height: 800px;
+    border-radius: 16px;
+}
+
+/*signup csscode*/
+
+.form{
+    padding: 25px 30px;  
+}
+.form .header header{
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 400px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b5c0b5;
+    margin-bottom: 50px;
+    margin-left: -250px;
+}
+
+/*css for error text*/
+
+.form form .error-txt{
+    width: 30%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(252, 201, 206);
+    color: rgb(245, 58, 58); 
+    margin-top: 5px; 
+    margin-left: 300px;
+    border:1px solid #0be5f5;
+}
+
+/*css for name details*/
+
+.form form .name-details{
+    display: flex;
+}
+.form form .name-details .field:first-child{
+    margin-right: 50px;
+}
+.form form .name-details .field:last-child{
+    margin-left: 50px;
+}
+.form form .personal-info{
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 600;
+}
+.form form .name-details .field{
+ display: flex;   
+ flex-direction: column;
+ margin-bottom: 10px;
+}
+.form form .name-details .input input{
+    outline: none;
+}
+.form form .name-details .input input{
+    width: 100%;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid;
+border-radius: 5px;
+}
+/*css code for sex and date of birth*/
+.form form .sex-dob{
+    margin-top: 30px;
+display: flex;
+}
+.form form .sex-dob .sex:first-child{
+  
+    margin-right: 60px;
+}
+.form form .sex-dob .dob:last-child{
+   
+margin-left: 40px;
+}
+.form form .sex-dob .dob input{
+
+height: 30px;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid;
+border-radius: 5px;
+}
+
+/*CSS for adress*/
+
+.form form .address{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;   
+}
+.form form .address-details{
+    display: flex;
+}
+.form form .address-details .field:first-child{
+    margin-right: 50px;
+}
+.form form .address-details .field:nth-child(2){
+    margin-right: 50px;
+}
+.form form .address-details .field:nth-child(3){
+    margin-right: 50px;
+}
+.form form .address-details .field{
+    display: flex;   
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+   }
+   .form form .address-details .input input{
+    outline: none;
+}
+.form form .address-details .input input{
+    width: 100%;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid;
+border-radius: 5px;
+margin-bottom: 30px;
+}
+/*css code for email and password*/
+.form form .email-password{
+    display: flex;
+}
+.form form .email-password .field:nth-child(1){
+    margin-right: 50px;
+}
+.form form .email-password .field:nth-child(2){
+    margin-right: 50px;
+}
+.form form .email-password .field{
+display: flex;
+flex-direction: column;
+margin-bottom: 30px;
+}
+.form form .email-password .input input{
+    width: 100%;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid;
+border-radius: 5px; 
+}
+/*css code for submit button*/
+.form form .submit input{
+    width: 20%;
+    margin-top: 30px;
+ margin-left: 300px;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid;
+border-radius: 5px; 
+background-color: rgb(182, 229, 188);
+
+}
+/*css code for signup or login link*/
+.form .link{
+    width: 100%;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+margin-left: 300px;
+margin-top: 15px;
+}
+/* css for login*/
+.form .header header{
+  
+margin-left: -250px;
+}
+
+.lwrapper{
+    background: rgb(234, 249, 250);
+    width: 800px;
+    height: 600px;
+    border-radius: 16px;
+}/*css for error-txt of login*/
+.form form .error-txt{
+    width: 30%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(252, 201, 206);
+    color: rgb(245, 58, 58); 
+    margin-top: 5px; 
+    margin-left: 290px;
+    border:1px solid #0be5f5;
+}
+.login form .e-p{
+    margin-left: 200px;
+    
+}
+.login form .einput input{
+    width: 300px;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+margin: 10px;
+border: 1px solid;
+border-radius: 5px; 
+}
+.login form .pinput  input{
+    width: 255px;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+margin: 10px;
+border: 1px solid;
+border-radius: 5px; 
+}
+/* css code for submit button*/
+.form form .s-l input{
+    width: 70px;
+    margin-top: 30px;
+ margin-left: 300px;
+    height: 30px;
+font-size: 16px;
+padding: 0 10px;
+border: 1px solid;
+border-radius: 5px; 
+background-color: rgb(182, 229, 188);
+
+}
+/*css code for cust_choice*/
+.choice-wrapper{
+    background: rgb(234, 249, 250);
+    width: 800px;
+    height: 600px;
+    border-radius: 16px;
+}
+.choice-wrapper .form .wellcome p{
+font-weight: bold;
+margin-left: 100px;
+}
+.choice-wrapper .form .p{
+    font-weight: bold;
+   
+}
+form .choice{
+    display: flex;
+}
+ form .choice .list1{
+     padding: 5px;
+    margin-right: 200px;
+    margin-left: 25px;
+}
+form .choice .list1 .buy{
+  margin-bottom: 5px;
+}
+form .choice .list1 .sell{
+    margin-bottom: 5px;
+  }
+  form .choice .list1 .worker{
+    margin-bottom: 5px;
+  }
+  form .choice .list2 .job{
+    margin-bottom: 5px;
+  }
+  form .choice .list2 .training{
+      margin-bottom: 5px;
+    }
+    form .choice .list2 .other{
+      margin-bottom: 5px;
+    }
+/*css code for cust_choice submit button*/
+.choice-wrapper .form .submit{
+    align-items: center;
+}
+/*css code for good-store form*/
+.first_paragraph{ 
+    font-weight: 600; 
+}
+/*css code for  form*/
+.choice-wrapper .form .good-store{
+display: flex;
+margin-top: 20px;
+   margin-left: 10px;
+}
+.choice-wrapper .form .good-store .good1 label{
+    font-size: 16px; 
+}
+.choice-wrapper .form .good-store .good1{
+    margin-bottom: 20px; 
+    }
+    .choice-wrapper .form .good-store .good1 input{
+       padding-right: 25px;
+        width: 200px;
+        height: 25px;
+        font-size: 16px;
+        border: 1px solid;
+        border-radius: 5px;      
+        }
+    .choice-wrapper .form .good-store .good2{
+        margin-bottom: 20px;
+        margin-left: 50px; 
+        }
+        .choice-wrapper .form .good-store .good2 label{
+            font-size: 16px; 
+        }
+        .choice-wrapper .form .good-store .good2 input{
+      width: 200px;
+      height: 25px;
+      font-size: 16px;
+      border: 1px solid;
+      border-radius: 5px; 
+            }
+        .choice-wrapper .form .good-store .submitt{
+            margin-top: 180px;
+            margin-left: -450px;
+            }
+                    .choice-wrapper .form .good-store .submitt input{
+            width: 150px;
+            height: 30px;
+        font-size: 16px;
+        border: 1px solid;
+        border-radius: 5px; 
+        background-color: rgb(182, 229, 188);
+    }
