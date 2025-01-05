@@ -6,10 +6,6 @@ body{
     background: #a9b4b4;
    
 }
-.:root {
-    background-color: rgb(234, 249, 250);
-}
-
 .wrapper {
     background: var(rgb(234, 249, 250));
     width: 80vw;
