@@ -3,11 +3,10 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #a9b4b4;
    
 }
 .wrapper {
-    background: var(rgb(234, 249, 250));
+    background-color: var(rgb(234, 249, 250));
     width: 80vw;
     
     height: 80vh;
